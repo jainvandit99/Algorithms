@@ -56,5 +56,3 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 *   1 <= nums.length <= 3 * 10<sup>4</sup>
 *   `-100 <= nums[i] <= 100`
 *   `nums` is sorted in **non-decreasing** order.
-
-```
