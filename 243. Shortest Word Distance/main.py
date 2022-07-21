@@ -3,7 +3,6 @@ Author: Amal Matty Antony
 """
 
 # O(n) space 
-
 from collections import defaultdict
 class Solution:
     def shortestDistance(self, wordsDict: List[str], word1: str, word2: str) -> int:
@@ -15,7 +14,6 @@ class Solution:
             for b in indices[word2]:
                 m = min(m, abs(a-b))
         return m
-
 
 """
 Author: Chirag Vijayvargiya
@@ -35,3 +33,4 @@ class Solution:
                 idx2 = i
                 dist = min(dist, abs(idx1-idx2))
         return dist
+=======
