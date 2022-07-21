@@ -34,24 +34,3 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 *   1 <= prices.length <= 10<sup>5</sup>
 *   0 <= prices[i] <= 10<sup>4</sup>
-
-
-## Solution
-
-Language: **C++**
-
-```c++
-class Solution {
-public:
-    int maxProfit(vector<int>& prices) {
-        int max = 0;
-        int curr = prices.back();
-        for(int i=prices.size()-2;i>=0;i--){
-            int t = prices[i] - curr;
-            if(t > 0) curr = prices[i];
-            else max = std::max(max,-1*(t));
-        }
-        return max;
-    }
-};
-```
