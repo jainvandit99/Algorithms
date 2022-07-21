@@ -20,8 +20,8 @@ This repository is being maintained as a reference for people solving problems o
 ### Contributors
 
 1. [Vandit Jain](github.com/jainvandit99)
+2. [Amal Matty Antony](github.com/amalmattyantony)
 
 <a href="https://github.com/jainvandit99/Algorithms/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=jainvandit99/Algorithms" />
 </a>
-2. [Amal Matty Antony](github.com/amalmattyantony)
