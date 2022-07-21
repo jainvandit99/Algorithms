@@ -1,3 +1,4 @@
+// Solution By Vandit Jain (jainvandit99)
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {

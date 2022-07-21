@@ -1,3 +1,4 @@
+// Solution By Vandit Jain (jainvandit99)
 // Solution 1
 class Solution {
 public:
@@ -24,6 +25,7 @@ public:
     }
 };
 
+// Solution By Vandit Jain (jainvandit99)
 // Solution 2
 class Solution {
 public:

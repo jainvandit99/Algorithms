@@ -1,3 +1,4 @@
+// Solution By Vandit Jain (jainvandit99)
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
