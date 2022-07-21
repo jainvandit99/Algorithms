@@ -23,8 +23,13 @@ public:
     int majorityElement(vector<int>& nums) {
         int count=0 ,max;
         for(int i=0;i<nums.size();i++){
+            // If count is 0, then we have to update max and count
             if(count==0) max = nums[i];
+            // If count is not 0, then we have to check if nums[i] is same as max
+            // If yes, then we have to increment count
             if(nums[i] == max) count++;
+            // If it is not the same, that means there is a different element than max which we 
+            // compensate for
             else count--;
         }
         return max;
