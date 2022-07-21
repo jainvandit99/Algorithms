@@ -21,3 +21,4 @@ This repository is being maintained as a reference for people solving problems o
 
 1. [Vandit Jain](github.com/jainvandit99)
 2. [Amal Matty Antony](github.com/amalmattyantony)
+3. [Chirag Vijayvargiya](github.com/Chirag9009)
