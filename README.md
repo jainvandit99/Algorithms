@@ -2,7 +2,7 @@
 This repository is being maintained as a reference for people solving problems on leetcode. If you want to include your solutions, create a pull request following the instructions below.
 
 ## To Contribute
-1. Create a branch with your github ID and language. Ex: ```jainvandit99_cpp```
+1. Fork the repo and create a branch with your github ID and language. Ex: ```jainvandit99_cpp```
 2. Check if the question number already exists. 
    1. If it does, check for a solution in your language. 
       1. If there is a solution and your approach is different/more efficient add your solution below the latest solution. 
