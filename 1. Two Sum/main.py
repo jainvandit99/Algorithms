@@ -1,5 +1,6 @@
 """
-Simple Python solution
+Simple Python solution with Dictionary
+Author: Amal Matty Antony 
 """
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
