@@ -10,7 +10,7 @@ This repository is being maintained as a reference for people solving problems o
       3. **PS: Don't forget to add your name in a comment before your solution.**
    2. If the question number doesn't exist, run the command
     ```shell
-   sh new.sh "<Question Number and Question Name from Leetcode>" 
+   sh new.sh "<Question Number and Question Name from Leetcode>" <solution extension [cpp, java, py]>
    ```
    3. Install the extension [LeetCode Helper](https://chrome.google.com/webstore/detail/leetcode-helper/gleoepapfjkpcijfmchfabbnldejdnoj) for Chrome. This will let you clip the question in markdown format from leetcode. 
    4. Copy the markdown into the newly created README file inside the directory corresponding to the question number. Delete the solution from the markdown and include it in the solution file. 
