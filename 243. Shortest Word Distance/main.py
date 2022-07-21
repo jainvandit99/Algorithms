@@ -33,4 +33,3 @@ class Solution:
                 idx2 = i
                 dist = min(dist, abs(idx1-idx2))
         return dist
-=======
