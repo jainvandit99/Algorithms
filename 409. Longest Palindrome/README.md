@@ -1,52 +1,33 @@
-# [142\. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+# [409\. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
 ## Description
 
-Difficulty: **Medium**  
+Difficulty: **Easy**  
 
-Related Topics: [Hash Table](https://leetcode.com/tag/hash-table/), [Linked List](https://leetcode.com/tag/linked-list/), [Two Pointers](https://leetcode.com/tag/two-pointers/)
+Related Topics: [Hash Table](https://leetcode.com/tag/hash-table/), [String](https://leetcode.com/tag/string/), [Greedy](https://leetcode.com/tag/greedy/)
 
 
-Given the `head` of a linked list, return _the node where the cycle begins. If there is no cycle, return_ `null`.
+Given a string `s` which consists of lowercase or uppercase letters, return _the length of the **longest palindrome**_ that can be built with those letters.
 
-There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. Internally, `pos` is used to denote the index of the node that tail's `next` pointer is connected to (**0-indexed**). It is `-1` if there is no cycle. **Note that** `pos` **is not passed as a parameter**.
-
-**Do not modify** the linked list.
+Letters are **case sensitive**, for example, `"Aa"` is not considered a palindrome here.
 
 **Example 1:**
 
-![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
-
 ```
-Input: head = [3,2,0,-4], pos = 1
-Output: tail connects to node index 1
-Explanation: There is a cycle in the linked list, where tail connects to the second node.
+Input: s = "abccccdd"
+Output: 7
+Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.
 ```
 
 **Example 2:**
 
-![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png)
-
 ```
-Input: head = [1,2], pos = 0
-Output: tail connects to node index 0
-Explanation: There is a cycle in the linked list, where tail connects to the first node.
-```
-
-**Example 3:**
-
-![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png)
-
-```
-Input: head = [1], pos = -1
-Output: no cycle
-Explanation: There is no cycle in the linked list.
+Input: s = "a"
+Output: 1
+Explanation: The longest palindrome that can be built is "a", whose length is 1.
 ```
 
 **Constraints:**
 
-*   The number of the nodes in the list is in the range [0, 10<sup>4</sup>].
-*   -10<sup>5</sup> <= Node.val <= 10<sup>5</sup>
-*   `pos` is `-1` or a **valid index** in the linked-list.
-
-**Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?
+*   `1 <= s.length <= 2000`
+*   `s` consists of lowercase **and/or** uppercase English letters only.
