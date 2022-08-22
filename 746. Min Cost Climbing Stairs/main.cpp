@@ -16,4 +16,23 @@ public:
     
 };
 
+// Solution by Vandit Jain (jainvandit99) in Bottom Up DP
+class Solution {
+public:
+        
+    int minCostClimbingStairs(vector<int>& cost) {
+        if(cost.size()==2) {
+            return min(cost[0],cost[1]);
+        }
+        
+        int CostDown1 = 0, CostDown2 = 0;
+        for(int i=2;i<=cost.size();i++){
+            int temp = CostDown1;
+            CostDown1 = min(CostDown1 + cost[i-1],CostDown2 + cost[i-2]);
+            CostDown2 = temp;
+        }
+        return CostDown1;
+    }
+    
+};
 
